@@ -1,0 +1,36 @@
+{
+  "name": "cross-koa-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.15",
+    "@grpc/proto-loader": "^0.7.7",
+    "dotenv": "^16.1.4",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.0",
+    "nice-grpc": "^2.1.4",
+    "protorepo-users-typescript": "git+https://github.com/Andrey-Shapovalov/protorepo-users-typescript.git"
+  },
+  "devDependencies": {
+    "@types/google-protobuf": "^3.15.6",
+    "@types/koa": "^2.13.6",
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa-router": "^7.4.4",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
